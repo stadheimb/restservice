@@ -1,0 +1,9 @@
+node_modules					usr/src/restservice
+package.json					usr/src/restservice
+package-lock.json				usr/src/restservice
+run-debug                       usr/src/restservice
+run-dev                         usr/src/restservice
+server							usr/src/restservice
+public							usr/src/restservice
+terraform/scripts/install.sh	usr/src/restservice
+terraform/scripts/start.sh		usr/src/restservice
