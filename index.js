@@ -3,7 +3,7 @@ app = express();
 port = process.env.PORT || 3000;
 
 app.get('*', (req, res) => {
-    console.log('request: ', req);
+    console.log('request: ', req.headers, req.params);
     res.send("req.params urg: " + JSON.stringify(req.params));
 });
 
